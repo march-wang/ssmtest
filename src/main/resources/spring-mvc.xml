@@ -48,7 +48,7 @@
 	
 	<!-- 静态资源处理 css,js images-->
 	<mvc:resources location="/resources/**" mapping="/resources" />
-	
+	<mvc:default-servlet-handler/>
 	<!--全局异常捕捉 -->
 	<bean class="com.javen.exception.GlobalExceptionResolver" />
 	
